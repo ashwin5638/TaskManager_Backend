@@ -118,21 +118,4 @@ Environment	Node 18+
 4.	Add all .env variables in Render dashboard
 5.	Deploy 🚀
 ________________________________________
-🧪 Test API Using Postman
 
-Example Login:
-POST https://your-backend.onrender.com/api/auth/login
-Body:
-{
-  "email": "test@example.com",
-  "password": "123456"
-}
-Response:
-{
-  "token": "...",
-  "user": {
-    "id": "...",
-    "name": "Test User",
-    "role": "user"
-  }
-}
