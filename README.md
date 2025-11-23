@@ -1,36 +1,14 @@
 📌 TaskManager Backend (Node.js + Express + MongoDB)
 
 A secure and scalable Task Management REST API with:
-•	🔐 JWT Authentication
-•	👥 Role-Based Access Control (User / Admin)
-•	📝 CRUD for Tasks
-•	👤 Users can manage only their tasks
-•	🛠 Admin can manage all tasks
-•	🌐 MongoDB Atlas support
+•	🔐 JWT Authentication       
+•	👥 Role-Based Access Control (User / Admin)    
+•	📝 CRUD for Tasks    
+•	👤 Users can manage only their tasks    
+•	🛠 Admin can manage all tasks     
+•	🌐 MongoDB Atlas support    
 •	🚀 Deploy-ready for Render
-________________________________________
-
-📁 Project Structure
-
-backend/
-├── config/
-│   └── db.js
-├── controllers/
-│   ├── authController.js
-│   └── taskController.js
-├── middleware/
-│   ├── auth.js
-│   └── admin.js
-├── models/
-│   └── index.js
-├── routes/
-│   ├── auth.js
-│   └── tasks.js
-├── .env (ignored)
-├── .gitignore
-├── server.js
-└── package.json
-________________________________________
+_________________________________________
 🚀 Features
 
 🔐 Authentication
@@ -116,6 +94,6 @@ Build Command	npm install
 Start Command	node server.js
 Environment	Node 18+
 4.	Add all .env variables in Render dashboard
-5.	Deploy 🚀
-________________________________________
+5.	Deploy
 
+Backend live url : https://taskmanager-backend1-46y3.onrender.com
